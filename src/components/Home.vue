@@ -10,19 +10,26 @@
         </div>
         <!-- e-mtiyaz en quelques mots -->
         <JumbotronAbout id="section_quelque_mot"></JumbotronAbout>
-        <Vision></Vision>
-        <NotreExpertise></NotreExpertise>
-        <NosLaureats></NosLaureats>
-        <NosPartenaires></NosPartenaires>
+        <Vision id="section_vision"></Vision>
+        <NotreExpertise id="section_expertise"></NotreExpertise>
+        <NosLaureats id="section_laureats"></NosLaureats>
+        <NosPartenaires id="section_partenaires"></NosPartenaires>
         <Temoignages></Temoignages>
-        <NousSoutenir></NousSoutenir>
+        <NousSoutenir id="section_soutenir"></NousSoutenir>
         <Don></Don>
-        <Location></Location>
+        <Location id="contact"></Location>
         <Footer></Footer>
+
+        <ContactModal></ContactModal>
+        <!-- Go up button-->
+        <a id="topBtn" href=""><i class="fas fa-arrow-up"></i></a>
     </div>
 </template>
 
 <script>
+
+  import $ from 'jquery';
+
   import Navigation from './Navigation'
   import Title from './Title'
   import JumbotronAbout from './JumbotronAbout'
@@ -36,9 +43,40 @@
   import Don from './Don'
   import Location from './Location'
   import Footer from './Footer'
+  import ContactModal from './ContactModal'
   export default {
     name: 'Home',
-    components: { Footer, Location, Don, NousSoutenir, Temoignages, NosPartenaires, NosLaureats, NotreExpertise, Missions, Vision, JumbotronAbout, Title, Navigation }
+    components: { ContactModal, Footer, Location, Don, NousSoutenir, Temoignages, NosPartenaires, NosLaureats, NotreExpertise, Missions, Vision, JumbotronAbout, Title, Navigation },
+    mounted() {
+      $(window).scroll(() => {
+        if($(window).scrollTop() > 100) {
+          $('#topBtn').fadeIn("slow");
+        } else {
+          $('#topBtn').fadeOut("slow");
+        }
+      });
+
+      // Scroll up button
+      $('#topBtn').click((e) => {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop : 0
+        }, 800)
+      });
+      $(".scrollTo").on('click', function(e) {
+        let getElem = $(this).data('scroll');
+        e.preventDefault();
+        if ($(getElem).length) {
+          let getOffset = $(getElem).offset().top;
+          let targetDistance = 70;
+          $('html,body').animate({
+            scrollTop : getOffset - targetDistance
+          }, 500);
+        }
+        return false;
+      });
+    }
+
   }
 </script>
 
@@ -49,10 +87,34 @@
     .header {
         position: relative;
         margin-top: -75px;
-        background: url(../assets/background/main-bg-final-testmdpi.svg) no-repeat center;
+        background: url("../assets/background/Asset 4mdpi.png") no-repeat center;
         background-size: cover;
         height: 140vh;
         overflow: hidden;
+    }
+
+    #topBtn {
+        text-decoration: none;
+        position: fixed;
+        padding-top: .5rem;
+        bottom: 40px;
+        right: 40px;
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background: $font-color-light;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        border: none;
+        cursor: pointer;
+        color: $dark-blue-color;
+        transition: 0.5s ease;
+        display: none;
+    }
+    #topBtn:hover {
+        color: $font-color-light;
+        background: $dark-blue-color;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     }
 
 </style>

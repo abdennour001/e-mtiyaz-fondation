@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid my-5 hand">
+    <div class="container-fluid mt-5 hand">
         <div class="row text-center justify-content-center">
             <div class="col-12 mt-4">
                 <h1 class="display-5" style="text-transform: uppercase">Nos Partenaires</h1>

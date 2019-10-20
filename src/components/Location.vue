@@ -28,10 +28,6 @@
 
 <style lang="scss" scoped>
     @import '../variables.scss';
-    .display-5 {
-        color: $dark-blue-color;
-        font-weight: 300;
-    }
     strong {
         font-weight: 500;
     }

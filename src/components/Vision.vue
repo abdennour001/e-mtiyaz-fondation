@@ -23,7 +23,7 @@
                         <div class="d-flex flex-column justify-content-between h-100">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="circle icon-1"></div>
+                                    <div class="circle circle-1 icon-1"></div>
                                 </div>
                                 <div class="col-12">
                                     <h4 class="display-5">Sensibiliser</h4>
@@ -36,7 +36,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="circle icon-2"></div>
+                                    <div class="circle circle-2 icon-2"></div>
                                 </div>
                                 <div class="col-12">
                                     <h4 class="display-5">Accompagner</h4>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <img src="../assets/img/missile.png" alt="missile" style="width: 60%">
+                        <img id="missile" src="../assets/img/missilemdpi.png" alt="missile" style="width: 65%">
                     </div>
                     <div class="col-4">
                         <div class="d-flex flex-column justify-content-center h-100">
@@ -79,8 +79,23 @@
 </template>
 
 <script>
+
+  import $ from 'jquery';
+  import ScrollReveal from 'scrollreveal';
+
   export default {
-    name: 'Vision'
+    name: 'Vision',
+    mounted () {
+      $(document).ready(function() {
+        window.sr = ScrollReveal({ reset: false });
+        sr.reveal('#missile', {
+          duration: 1500,
+          delay: 500,
+          origin: 'bottom',
+          distance: '500px'
+        })
+      });
+    }
   }
 </script>
 
@@ -93,26 +108,35 @@
     }
     .circle {
         margin: 0 auto;
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
         border: 2px solid $light-green-color;
         border-radius: 200px;
         position: relative;
         background-color: $lighter-green-color
     }
-    .circle:after {
+    .circle-1:after {
         content: '';
         position: absolute;
         top: 50%;
         left: 100%;
-        width: 200px;
+        width: 310px;
+        z-index: 0;
+        border-top: 3px dashed $light-green-color;
+    }
+    .circle-2:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        width: 250px;
         z-index: 0;
         border-top: 3px dashed $light-green-color;
     }
     .circle-last {
         margin: 0 auto;
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
         border: 2px solid $light-green-color;
         border-radius: 200px;
         position: relative;
@@ -122,14 +146,16 @@
         content: '';
         position: absolute;
         top: 50%;
-        left: -270%;
-        width: 200px;
+        left: -292%;
+        width: 280px;
         z-index: 0;
         border-top: 3px dashed $light-green-color;
     }
     h4 {
         text-transform: uppercase;
         color: $light-green-color;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .icon-1 {
         background: url('../assets/icon/icon-1.png') no-repeat center;

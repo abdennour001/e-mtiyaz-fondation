@@ -10,7 +10,7 @@
             <div class="col-12 my-4">
                 <h3 id='p-1' style="font-weight: 400;">Nos lauréats sont issus :</h3>
             </div>
-            <div class="col-12 my-4">
+            <div class="col-12 my-4 content">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12" style="margin-bottom: 5rem">
                         <div class="row align-items-center">
@@ -45,7 +45,8 @@
                     et <strong>ouverts à toutes et à tous</strong>.</h4>
             </div>
             <div class="col-12 mt-4">
-                <a class="button scrollTo Contactez-nous" href="#" data-scroll="#section_rendez_vous">
+                <a class="button Contactez-nous" href="#"
+                   data-toggle="modal" data-target="#exampleModal">
                     Devenez lauréat
                     <i class="fas fa-arrow-alt-circle-up align-middle ml-1" style="font-size: 1.7rem"></i>
                 </a>
@@ -69,6 +70,7 @@
         height: 150px;
         border: 2px solid $dark-blue-color;
         border-radius: 200px;
+        transition: 0.5s ease;
     }
     .circle:after {
         content: '';
@@ -128,8 +130,11 @@
         background: linear-gradient(175deg, $light-blue-color, $dark-blue-color);
         transition: 1s ease;
     }
-
     .jumbotron:hover {
         background: linear-gradient(185deg, $light-blue-color, $dark-blue-color);
+    }
+    .content {
+        padding-left: 6rem;
+        padding-right: 6rem;
     }
 </style>

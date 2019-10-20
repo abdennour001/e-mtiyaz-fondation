@@ -8,16 +8,10 @@
                 <div class="col-12 margin-3">
                     <p class="lead">e-mtiyaz est un centre éducatif qui œuvre depuis 2013 à faire de l’Algérie une terre d’excellence académique</p>
                 </div>
-<!--                <div class="col-12 mb-4">-->
-<!--                    <hr class="light">-->
-<!--                </div>-->
-<!--                <div class="col-12">-->
-<!--                    <p class="lead-2">-->
-<!--                        Fort de son expérience dans le coaching scolaire et universitaire et convaincu qu’il est du ressort de chacun d’agir pour l’intérêt général, e-mtiyaz a décidé de mettre son expertise au service de tous au travers d’une fondation.-->
-<!--                    </p>-->
-<!--                </div>-->
                 <div class="col-12 margin-2">
-                    <a class="button scrollTo Contactez-nous" href="#" data-scroll="#section_rendez_vous">
+                    <a class="button Contactez-nous"
+                       data-toggle="modal" data-target="#exampleModal"
+                       href="#">
                         Contactez-nous
                         <i class="fas fa-arrow-alt-circle-up align-middle ml-2" style="font-size: 1.7rem"></i>
                     </a>
@@ -31,7 +25,7 @@
 
 <script>
   export default {
-    name: 'Title'
+    name: 'Title',
   }
 </script>
 

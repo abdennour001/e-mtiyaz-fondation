@@ -9,10 +9,11 @@
             </div>
             <div class="col-12">
                 <p class="lead">
-                    e-mtiyaz est un centre éducatif qui œuvre depuis 2013 à faire de l’Algérie une terre d’excellence académique.
+                    <strong>e-mtiyaz</strong> est un <strong>centre éducatif </strong>qui œuvre depuis <strong>2013</strong> à faire de l’Algérie une terre <strong>d’excellence académique</strong>.
                 </p>
                 <p class="lead">
-                    Fort de son expérience dans le coaching scolaire et universitaire et convaincu qu’il est du ressort de chacun d’agir pour l’intérêt général, e-mtiyaz a décidé de mettre son expertise au service de tous au travers d’une fondation.
+                    Fort de son <strong>expérience</strong> dans le <strong>coaching scolaire</strong> et <strong>universitaire</strong> et convaincu qu’il est du ressort de chacun d’agir pour l’intérêt général, <strong>e-mtiyaz</strong>
+                    a décidé de mettre son <strong>expertise</strong> au service de tous au travers d’une <strong>fondation</strong>.
                 </p>
             </div>
         </div>
@@ -78,5 +79,9 @@
 
 <style lang="scss" scoped>
     @import '../variables.scss';
+
+    strong {
+        font-weight: 500;
+    }
 
 </style>

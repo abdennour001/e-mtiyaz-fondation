@@ -19,46 +19,24 @@
                             À-propos <i class="fas fa-angle-down ml-2"></i>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
-                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_mot">e-mtiyaz en quelques mots</a></li>
-                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_quelque_mot">Vision et missions</a></li>
+                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_quelque_mot">e-mtiyaz en quelques mots</a></li>
+                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_vision">Vision et missions</a></li>
                         </ul>
                     </li>
-<!--                    <li id="li-3" class="nav-item dropdown">-->
-<!--                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" data-hover="dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-<!--                            Services <i class="fa fa-angle-down ml-2"></i>-->
-<!--                        </a>-->
-<!--                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">-->
-<!--                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_chart">Notre charte de qualité</a></li>-->
-<!--                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_engagement">Nos engagements au service</a></li>-->
-<!--                            <li class="dropdown-submenu">-->
-<!--                                <a href="#" id="dropdownSubMenu"  role="button" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">-->
-<!--                                    Notre offre de service <i class="fas fa-angle-down ml-2"></i>-->
-<!--                                </a>-->
-<!--                                <ul aria-labelledby="dropdownSubMenu" class="dropdown-menu">-->
-<!--                                    <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_offre">Parcours Classique</a></li>-->
-<!--                                    <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_offre">Parcours Elite</a></li>-->
-<!--                                    <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_offre">Parcours Declic</a></li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_centre">Notre Centre d'excellence</a></li>-->
-<!--                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_pedagogie">Notre pédagogie d'excellence</a></li>-->
-<!--                            <li><a class="dropdown-item scrollTo" href="#" data-scroll="#section_suivi">Notre suivi pédagogique</a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
-                    <li id="li-4" class="nav-item">
-                        <a class="nav-link scrollTo" href="#" data-scroll="#section_contact">Notre Expertise</a>
+                    <li id="li-3" class="nav-item">
+                        <a class="nav-link scrollTo" href="#" data-scroll="#section_expertise">Notre Expertise</a>
                     </li>
                     <li id="li-4" class="nav-item">
-                        <a class="nav-link scrollTo" href="#" data-scroll="#section_contact">Nos Lauréats</a>
+                        <a class="nav-link scrollTo" href="#" data-scroll="#section_laureats">Nos Lauréats</a>
                     </li>
-                    <li id="li-4" class="nav-item">
-                        <a class="nav-link scrollTo" href="#" data-scroll="#section_contact">Nos Partenaires</a>
+                    <li id="li-5" class="nav-item">
+                        <a class="nav-link scrollTo" href="#" data-scroll="#section_partenaires">Nos Partenaires</a>
                     </li>
-                    <li id="li-4" class="nav-item">
-                        <a class="nav-link scrollTo" href="#" data-scroll="#section_contact">Nous Soutenir</a>
+                    <li id="li-6" class="nav-item">
+                        <a class="nav-link scrollTo" href="#" data-scroll="#section_soutenir">Nous Soutenir</a>
                     </li>
-                    <li id="li-4" class="nav-item">
-                        <a class="nav-link scrollTo" href="#" data-scroll="#section_contact">Contact</a>
+                    <li id="li-7" class="nav-item">
+                        <a class="nav-link scrollTo" href="#" data-scroll="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -94,25 +72,37 @@
         sr.reveal('#li-2', {
           duration: 1000,
           origin: 'top',
-          delay:400,
+          delay:300,
           distance: '50px'
         })
         sr.reveal('#li-3', {
           duration: 1000,
           origin: 'top',
-          delay:600,
+          delay:400,
           distance: '50px'
         })
         sr.reveal('#li-4', {
           duration: 1000,
           origin: 'top',
-          delay:800,
+          delay:500,
           distance: '50px'
         })
         sr.reveal('#li-5', {
           duration: 1000,
           origin: 'top',
-          delay:1000,
+          delay:600,
+          distance: '50px'
+        })
+        sr.reveal('#li-6', {
+          duration: 1000,
+          origin: 'top',
+          delay:800,
+          distance: '50px'
+        })
+        sr.reveal('#li-7', {
+          duration: 1000,
+          origin: 'top',
+          delay:900,
           distance: '50px'
         })
       });
@@ -217,6 +207,9 @@
         transition:500ms ease;
         background:transparent;
         -webkit-text-fill-color: $font-color-light;
+        .dropdown-item {
+            -webkit-text-fill-color: $font-color-dark;
+        }
     }
     .navbar-default.scrolled{
         background:$font-color-light;
