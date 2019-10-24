@@ -11,14 +11,14 @@
                 <div class="row text-center justify-content-center align-items-center">
                     <!--            -->
                     <div class="col-lg-6 col-md-12 col-sm-12 mb-lg-5 mb-md-5">
-                        <h1 class="title-1-1 display-4 text-lg-left text-md-center text-md-center">Coach e-mtiyaz</h1>
-                        <h1 class="title-1-2 text-lg-left text-md-center text-md-center display-4"><strong>Devenir coach e-mtiyaz c’est</strong></h1>
+                        <h1 class="top-t title-1-1 display-4 text-lg-left text-md-center text-md-center">Coach e-mtiyaz</h1>
+                        <h1 class="bottom-t title-1-2 text-lg-left text-md-center text-md-center display-4"><strong>Devenir coach e-mtiyaz c’est</strong></h1>
                         <ul class="text-left ul-orange">
-                            <li>Aider les jeunes <strong>étudiants</strong> à définir leur projet<strong>
+                            <li class="l-1">Aider les jeunes <strong>étudiants</strong> à définir leur projet<strong>
                                 professionnel</strong> et les <strong>motiver</strong> à
                                 <strong>s’investir</strong> dans la concrétisation de leurs ambitions</li>
-                            <li>Leur faire<strong> découvrir</strong> le monde du travail à travers des <strong>événements d’immersion</strong></li>
-                            <li>Leur permettre d’accéder à des <strong>opportunités de financement</strong>,
+                            <li class="l-2">Leur faire<strong> découvrir</strong> le monde du travail à travers des <strong>événements d’immersion</strong></li>
+                            <li class="l-3">Leur permettre d’accéder à des <strong>opportunités de financement</strong>,
                                 de <strong>stages</strong> ou <strong>d’emploi</strong>
                                 dans le cadre de son<strong> projet académique</strong></li>
                         </ul>
@@ -32,16 +32,16 @@
                     <div class="col-12">
                         <div class="row text-center justify-content-center align-items-center">
                             <div class="col-lg-6 col-md-12 col-sm-12 mt-md-3 mt-sm-5">
-                                <h1 class="title-2-1 display-4 text-lg-left text-md-center text-md-center">Mentor e-mtiyaz</h1>
-                                <h1 class="title-2-2 text-lg-left text-md-center text-md-center display-4">
+                                <h1 class="top-t title-2-1 display-4 text-lg-left text-md-center text-md-center">Mentor e-mtiyaz</h1>
+                                <h1 class="bottom-t title-2-2 text-lg-left text-md-center text-md-center display-4">
                                     <strong>Devenir mentor e-mtiyaz c'est</strong></h1>
                                 <ul class="text-left ul-green">
-                                    <li><strong>Répondre </strong>aux questions de jeunes élèves/étudiants en vous
+                                    <li class="l-1"><strong>Répondre </strong>aux questions de jeunes élèves/étudiants en vous
                                         <strong>inspirant de votre parcours</strong>
                                         et de <strong>vos expériences d’études</strong></li>
-                                    <li>Témoigner de votre<strong> expérience</strong>
+                                    <li class="l-2">Témoigner de votre<strong> expérience</strong>
                                         lors <strong>d’évènements d’orientation et de </strong><strong>coaching</strong></li>
-                                    <li><strong>Parrainer</strong> un étudiant candidat à un <strong>parcours </strong>d’études similaire</li>
+                                    <li class="l-3"><strong>Parrainer</strong> un étudiant candidat à un <strong>parcours </strong>d’études similaire</li>
                                 </ul>
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12 text-lg-center text-md-center text-md-center">
@@ -60,7 +60,7 @@
             </div>
             <div class="col-12 mt-4">
                 <a class="button Contactez-nous" href="#"
-                   data-toggle="modal" data-target="#exampleModal">
+                   data-toggle="modal" data-target="#exampleModal" data-whatever="Rejoignez la foundation e-mtiyaz">
                     Rejoignez la foundation e-mtiyaz
                     <i class="fas fa-arrow-alt-circle-up align-middle ml-1" style="font-size: 1.7rem"></i>
                 </a>
@@ -69,8 +69,8 @@
         <div class="row text-center justify-content-center align-items-center">
             <div class="col-12">
                 <div class="col-12 my-4">
-                    <h1 style="font-weight: normal; font-size: 3.5rem">Faites un don!</h1>
-                    <p class="lead my-5 mx-5">Vous souhaitez soutenir le <strong>développement de
+                    <h1 id="don" style="font-weight: normal; font-size: 3.5rem">Faites un don!</h1>
+                    <p id="underDon" class="lead my-5 mx-5">Vous souhaitez soutenir le <strong>développement de
                         l’éducation en Algérie ?</strong> Faites un <strong>don</strong>. Ce don nous permettra d’aider les <strong>jeunes étudiants</strong> à
                         <strong>poursuivre</strong> leurs <strong>études</strong>, à <strong>s’orienter</strong> de façon optimale et à
                         <strong>développer des compétences</strong> clés
@@ -83,23 +83,23 @@
         </div>
         <div class="row text-center justify-content-center align-items-center why mb-0 mt-4">
             <div class="col-12 text-left">
-                <div class="d-flex justify-content-start align-items-center mb-4">
+                <div id="flex-1" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
                     <p class="lead m-0">Prendre part à un projet éducatif de dimension nationale,</p>
                 </div>
-                <div class="d-flex justify-content-start align-items-center mb-4">
+                <div id="flex-2" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
                     <p class="lead m-0">Participer à la formation de la ressource humaine de demain et à son recrutement,</p>
                 </div>
-                <div class="d-flex justify-content-start align-items-center mb-4">
+                <div id="flex-3" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
                     <p class="lead m-0">Intégrer un réseau d’entreprises qui nous soutiennent et participer à notre meeting annuel,</p>
                 </div>
-                <div class="d-flex justify-content-start align-items-center mb-4">
+                <div id="flex-4" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
                     <p class="lead m-0">Renforcer l’impact social de votre entreprise sur la société,</p>
                 </div>
-                <div class="d-flex justify-content-start align-items-center mb-4">
+                <div id="flex-5" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
                     <p class="lead m-0">Permettre à vos collaborateurs de développer des compétences d’écoute et de management
                         intergénérationnel en les incitant à participer à nos ateliers,</p>
@@ -110,8 +110,86 @@
 </template>
 
 <script>
+
+  import $ from 'jquery';
+  import ScrollReveal from 'scrollreveal';
+
   export default {
-    name: 'NousSoutenir'
+    name: 'NousSoutenir',
+    mounted() {
+
+        window.sr = ScrollReveal({ reset: false });
+      sr.reveal('.top-t', {
+        duration: 1000,
+        origin: 'left',
+        distance: '60px'
+      })
+      sr.reveal('.bottom-t', {
+        duration: 1000,
+        origin: 'left',
+        delay: 200,
+        distance: '60px'
+      })
+      sr.reveal('.l-1', {
+        duration: 1000,
+        origin: 'left',
+        delay: 500,
+        distance: '40px'
+      })
+      sr.reveal('.l-2', {
+        duration: 1000,
+        origin: 'left',
+        delay: 700,
+        distance: '40px'
+      })
+      sr.reveal('.l-3', {
+        duration: 1000,
+        origin: 'left',
+        delay: 900,
+        distance: '40px'
+      })
+      sr.reveal('#don', {
+        duration: 1000,
+        origin: 'top',
+        distance: '60px'
+      })
+      sr.reveal('#underDon', {
+        duration: 1000,
+        origin: 'bottom',
+        delay: 200,
+        distance: '60px'
+      })
+        sr.reveal('#flex-1', {
+          duration: 1000,
+          origin: 'left',
+          delay: 200,
+          distance: '60px'
+        })
+        sr.reveal('#flex-2', {
+          duration: 1000,
+          origin: 'left',
+          delay: 400,
+          distance: '60px'
+        })
+        sr.reveal('#flex-3', {
+          duration: 1000,
+          origin: 'left',
+          delay: 600,
+          distance: '60px'
+        })
+        sr.reveal('#flex-4', {
+          duration: 1000,
+          origin: 'left',
+          delay: 800,
+          distance: '60px'
+        })
+      sr.reveal('#flex-5', {
+        duration: 1000,
+        origin: 'left',
+        delay: 1000,
+        distance: '60px'
+      })
+    }
   }
 </script>
 
@@ -120,24 +198,24 @@
     @import "../variables.scss";
 
     .content-top {
-        padding-right: 3rem;
-        padding-left: 3rem;
+        padding-right: 7rem;
+        padding-left: 7rem;
     }
     .title-1-1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .title-1-2 {
-        font-size: 3em;
-        color: $dark-orange-color;
+        font-size: 2.5em;
+        color: $dark-blue-color;
         strong {
             font-weight: 500;
         }
     }
     .title-2-1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .title-2-2 {
-        font-size: 3em;
+        font-size: 2.5em;
         color: $dark-green-color;
         strong {
             font-weight: 500;
@@ -161,7 +239,7 @@
         margin-bottom: 10px;
     }
     .ul-orange {
-        border-left-color: $dark-orange-color;
+        border-left-color: $dark-blue-color;
     }
     .ul-green {
         border-left-color: $dark-green-color;

@@ -8,10 +8,10 @@
                 <hr class="blue">
             </div>
             <div class="col-12">
-                <p class="lead">
+                <p class="lead" id="t-1">
                     <strong>e-mtiyaz</strong> est un <strong>centre éducatif </strong>qui œuvre depuis <strong>2013</strong> à faire de l’Algérie une terre <strong>d’excellence académique</strong>.
                 </p>
-                <p class="lead">
+                <p class="lead" id="t-2">
                     Fort de son <strong>expérience</strong> dans le <strong>coaching scolaire</strong> et <strong>universitaire</strong> et convaincu qu’il est du ressort de chacun d’agir pour l’intérêt général, <strong>e-mtiyaz</strong>
                     a décidé de mettre son <strong>expertise</strong> au service de tous au travers d’une <strong>fondation</strong>.
                 </p>
@@ -32,46 +32,17 @@
         window.sr = ScrollReveal({ reset: false });
         sr.reveal('#t-1', {
           duration: 1000,
+          delay: 200,
           origin: 'left',
-          distance: '50px'
-        })
-        sr.reveal('#t-2', {
-          duration: 1000,
-          origin: 'right',
-          delay: 250,
-          distance: '50px'
-        })
-        sr.reveal('#t-3', {
-          duration: 1000,
-          origin: 'left',
-          delay: 500,
-          distance: '50px'
-        })
-        sr.reveal('#p-1', {
-          duration: 1000,
-          origin: 'left',
-          delay: 750,
-          distance: '50px'
-        })
-        sr.reveal('#p-2', {
-          duration: 1000,
-          origin: 'left',
-          delay: 750,
-          distance: '50px'
-        })
-        sr.reveal('#p-3', {
-          duration: 1000,
-          origin: 'left',
-          delay: 750,
-          distance: '50px'
-        })
-        sr.reveal('#p-4', {
-          duration: 1000,
-          origin: 'left',
-          delay: 750,
-          distance: '50px'
+          distance: '100px'
         })
 
+        sr.reveal('#t-2', {
+          duration: 1000,
+          delay: 500,
+          origin: 'right',
+          distance: '100px'
+        })
       });
     }
   }

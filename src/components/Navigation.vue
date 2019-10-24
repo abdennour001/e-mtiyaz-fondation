@@ -174,6 +174,8 @@
           }
         })
 
+        // let isVisible = $( ".collapse" ).is( ":visible" );
+
         $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
           event.preventDefault();
           event.stopPropagation();
@@ -211,6 +213,7 @@
             -webkit-text-fill-color: $font-color-dark;
         }
     }
+
     .navbar-default.scrolled{
         background:$font-color-light;
     }
@@ -327,14 +330,15 @@
             padding: 2rem;
             background: white;
         }
+        .dark-blue-text {
+            color: $font-color-light;
+        }
     }
     @media screen and (max-width: 768px) { /* medium screen */
 
     }
     @media screen and (max-width: 648px) { /* large screen */
-        .dark-blue-text {
-            color: $font-color-light;
-        }
+
     }
     @media (max-width: 576px) { /* mobile screen */
     }

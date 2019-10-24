@@ -51,4 +51,7 @@
     -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   }
+  .squeeze-70 {
+    width: 70%;
+  }
 </style>

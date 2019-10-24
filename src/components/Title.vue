@@ -1,7 +1,7 @@
 <template>
     <div id="title" class="container-fluid ml-4">
         <div class="row">
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 offset-3 col-sm-12">
                 <div class="col-12 mt-5">
                     <img class="logo-img" src="../assets/logo/e-mtiyaz-logo-v3-fondation-white.png"/>
                 </div>
@@ -17,15 +17,14 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-6">
-            </div>
         </div>
     </div>
 </template>
 
 <script>
+
   export default {
-    name: 'Title',
+    name: 'Title'
   }
 </script>
 

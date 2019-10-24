@@ -14,12 +14,14 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/vue-fontawesome": "^0.1.7",
+    "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
     "scrollreveal": "^4.0.5",
     "vue": "^2.6.10",
+    "vue-axios": "^2.1.5",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {

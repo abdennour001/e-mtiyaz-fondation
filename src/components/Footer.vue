@@ -13,7 +13,9 @@
                     <p>Chéraga - Alger</p>
                 </div>
                 <div class="col-12 my-2">
-                    <a class="button scrollTo" href="" data-scroll="#section_rendez_vous">Contactez-nous</a>
+                    <a class="button" href=""
+                       data-toggle="modal" data-target="#exampleModal"
+                    >Contactez-nous</a>
                 </div>
                 <div class="col-12">
                     <hr class="light">

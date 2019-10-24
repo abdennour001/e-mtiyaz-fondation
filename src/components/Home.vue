@@ -29,6 +29,8 @@
 <script>
 
   import $ from 'jquery';
+  import ScrollReveal from 'scrollreveal';
+
 
   import Navigation from './Navigation'
   import Title from './Title'
@@ -48,6 +50,25 @@
     name: 'Home',
     components: { ContactModal, Footer, Location, Don, NousSoutenir, Temoignages, NosPartenaires, NosLaureats, NotreExpertise, Missions, Vision, JumbotronAbout, Title, Navigation },
     mounted() {
+
+      window.srTitle = ScrollReveal({ reset: true });
+      window.sr = ScrollReveal({ reset: false });
+      srTitle.reveal('#title', {
+        duration: 1000,
+        origin: 'top',
+        distance: '50px'
+      })
+      sr.reveal('.display-5', {
+        duration: 1000,
+        origin: 'left',
+        distance: '250px'
+      })
+      sr.reveal('.blue', {
+        duration: 1000,
+        origin: 'right',
+        distance: '250px'
+      });
+
       $(window).scroll(() => {
         if($(window).scrollTop() > 100) {
           $('#topBtn').fadeIn("slow");
@@ -87,7 +108,7 @@
     .header {
         position: relative;
         margin-top: -75px;
-        background: url("../assets/background/Asset 4mdpi.png") no-repeat center;
+        background: url("../assets/background/main-bgmdpi.png") no-repeat center center;
         background-size: cover;
         height: 140vh;
         overflow: hidden;

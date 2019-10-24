@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid cool mb-4">
+    <div class="container-fluid mb-4">
         <div class="row text-center justify-content-center welcome">
             <div class="col-12 mt-4">
                 <h1 class="display-5" style="text-transform: uppercase">Notre Expertise</h1>
@@ -9,7 +9,7 @@
             </div>
             <div class="col-12">
                 <div class="row text-center justify-content-center">
-                    <div class="col-12 my-5">
+                    <div class="col-12 my-4">
                         <h4 id='p-1' style="font-weight: 400;">Donner aux étudiants les outils pour entreprendre activement et efficacement leur entrée sur le marché de l’emploi</h4>
                     </div>
                     <div class="col-lg-3 col-md-12 col-12-sm">
@@ -44,10 +44,10 @@
             <div class="col-12">
                 <div class="row text-center">
                     <div class="col-12 my-4">
-                        <h1 class="orange" style="font-weight: normal; font-size: 3.5rem">Pourquoi ?</h1>
+                        <h1 class="orange" style="font-weight: normal; font-size: 3rem">Pourquoi ?</h1>
                     </div>
                     <div class="col-12">
-                        <p class="lead" style="font-size: 2rem">
+                        <p class="lead" style="font-size: 1.5rem">
                             Afin de se préparer plus <strong>efficacement</strong> à s’insérer sur <strong>le marché de l’emploi</strong> et
                             impulser sa future <strong>carrière professionnelle</strong> !
                         </p>
@@ -77,11 +77,6 @@
     }
     .orange{
         color: $dark-orange-color;
-    }
-    .cool {
-        background: url("../assets/background/cool-bgmdpi.png") no-repeat center;
-        background-size: cover;
-        background-position-y: 1rem;
     }
     .icon-1 {
         background: url("../assets/icon/icon-3.png") no-repeat center;

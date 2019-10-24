@@ -9,6 +9,11 @@ import '@fortawesome/fontawesome-free-solid'
 import '@fortawesome/free-brands-svg-icons'
 import '@fortawesome/fontawesome-free-brands'
 
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
+Vue.use(VueAxios, axios)
+
 Vue.config.productionTip = false
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'

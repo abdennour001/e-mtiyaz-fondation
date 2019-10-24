@@ -1,13 +1,13 @@
 <template>
     <div class="container-fluid">
         <div class="row text-center justify-content-center welcome">
-            <div class="col-12 mt-4">
+            <div class="col-12 mt-2">
                 <h1 class="display-5" style="text-transform: uppercase">Nos Lauréats</h1>
             </div>
             <div class="col-6 mb-4">
                 <hr class="blue">
             </div>
-            <div class="col-12 my-4">
+            <div class="col-12 my-2">
                 <h3 id='p-1' style="font-weight: 400;">Nos lauréats sont issus :</h3>
             </div>
             <div class="col-12 my-4 content">
@@ -46,7 +46,7 @@
             </div>
             <div class="col-12 mt-4">
                 <a class="button Contactez-nous" href="#"
-                   data-toggle="modal" data-target="#exampleModal">
+                   data-toggle="modal" data-target="#exampleModal" data-whatever="Devenez lauréat">
                     Devenez lauréat
                     <i class="fas fa-arrow-alt-circle-up align-middle ml-1" style="font-size: 1.7rem"></i>
                 </a>
