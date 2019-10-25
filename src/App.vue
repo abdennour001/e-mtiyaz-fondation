@@ -41,7 +41,6 @@
     color: $dark-blue-color;
   }
   .welcome {
-    width: 100%;
     margin: 0 auto;
     padding: 1.5rem;
   }
@@ -53,5 +52,37 @@
   }
   .squeeze-70 {
     width: 70%;
+  }
+  .button:active {
+    transform: scale(0.8);
+  }
+
+  /** media queries **/
+  @media screen and (min-width: 992px) { /* large screen */
+
+  }
+  @media screen and (max-width: 992px) { /* large screen */
+    .welcome {
+      padding: .9rem;
+    }
+    .squeeze-70 {
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 768px) { /* medium screen */
+    .welcome {
+      padding: .5rem;
+    }
+    .squeeze-70 {
+      width: 85%;
+    }
+  }
+  @media (max-width: 576px) { /* mobile screen */
+    .welcome {
+      padding: .3rem;
+    }
+    .squeeze-70 {
+      width: 100%;
+    }
   }
 </style>

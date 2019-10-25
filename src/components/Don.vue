@@ -6,28 +6,6 @@
                 Contribuez par un don!
                 <i class="fas fa-arrow-alt-circle-up align-middle ml-1" style="font-size: 1.7rem"></i>
             </a>
-<!--            <div class="text-left don-1">-->
-<!--                <h3>Don</h3>-->
-<!--                <h1><strong>Particulier</strong></h1>-->
-<!--                <h5>Don ponctuel</h5>-->
-<!--                <ul class="text-left ul-orange">-->
-<!--                    <li>5000DZD</li>-->
-<!--                    <li>10.000DZD</li>-->
-<!--                    <li>30.000DZD</li>-->
-<!--                </ul>-->
-<!--                <h5>Don par versement mensuel</h5>-->
-<!--            </div>-->
-<!--            <div class="text-left don-2">-->
-<!--                <h3>Don</h3>-->
-<!--                <h1><strong>Entreprises</strong></h1>-->
-<!--                <h5>Don ponctuel</h5>-->
-<!--                <ul class="text-left ul-green">-->
-<!--                    <li>50.000DZD</li>-->
-<!--                    <li>100.000DZD</li>-->
-<!--                    <li>200.000DZD</li>-->
-<!--                </ul>-->
-<!--                <h5>Don par versement mensuel</h5>-->
-<!--            </div>-->
         </div>
     </div>
 </template>
@@ -60,39 +38,9 @@
 <style lang="scss" scoped>
 
     @import '../variables.scss';
-    ul {
-        list-style-type: none;
-        margin-left: 2rem;
-        padding-left: 1rem;
-        border-left: 2px solid #000;
-        transition: 0.5s ease;
-        font-weight: 400;
-    }
-    ul li {
-        font-size: 1.1rem;
-        margin-bottom: 10px;
-        color: $font-color-dark;
-    }
-    .ul-orange {
-        border-left-color: $dark-orange-color;
-    }
-    .ul-green {
-        border-left-color: $dark-green-color;
-    }
-    .jumbotron {
-        padding: 2rem;
-    }
-    .d-flex {
-        padding-inline: 12rem;
-    }
+
     strong {
         font-weight: 500;
-    }
-    .don-1 {
-        color: $dark-orange-color;
-    }
-    .don-2 {
-        color: $dark-green-color;
     }
     .button {
         display: inline-block;
@@ -116,6 +64,46 @@
         border: 1px solid transparent;
         .fa-arrow-alt-circle-up {
             transform: translateX(20px) rotate(90deg + 360deg);
+        }
+    }
+
+    @media screen and (max-width: 992px) { /* large screen */
+        .button {
+            width: 40%;
+        }
+        .button:hover {
+            width: 45%;
+        }
+    }
+
+    @media screen and (max-width: 772px) and (min-width: 500px) { /* tablet screen */
+        .button {
+            font-size: 1em;
+            font-weight: 300;
+            width: 50%;
+        }
+        .button:hover {
+            width: 40%;
+        }
+    }
+    @media screen and (max-width: 654px) and (min-width: 332px) {
+        .button {
+            font-size: 1em;
+            font-weight: 300;
+            width: 75%;
+        }
+        .button:hover {
+            width: 75%;
+        }
+    }
+    @media screen and (max-width: 332px) {
+        .button {
+            font-size: 1em;
+            font-weight: 300;
+            width: 90%;
+        }
+        .button:hover {
+            width: 95%;
         }
     }
 

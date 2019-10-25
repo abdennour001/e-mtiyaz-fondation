@@ -23,7 +23,7 @@
             <div class="col-lg-4 col-md-12 col-sm-12">
                 <div class="my-card">
                     <div class="my-card-body">
-                        <p class="lead" style="font-size: 1.13rem;margin-top: 1.7rem">
+                        <p class="lead" style="margin-top: 1.7rem">
                             <i class="fas fa-quote-left fa-lg"></i>
                             Arrivé en France pour intégrer un cursus d'excellence, l'équipe d'e-mtiyaz a été là pour moi pour m'accueillir,
                             m'accompagner dans mon installation et m'aider à surmonter les exigences des parcours d'excellence.
@@ -113,7 +113,7 @@
             font-size: 1.5rem;
         }
         .lead {
-            font-size: 1rem;
+            font-size: .9rem;
         }
     }
 </style>

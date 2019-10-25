@@ -133,6 +133,11 @@
         $('.navbar-toggler').on('click', function() {
           $(document).ready(function() {
             window.sr = ScrollReveal({ reset: false });
+            sr.reveal('#logo-image', {
+              duration: 1000,
+              origin: 'left',
+              distance: '300px'
+            })
             sr.reveal('#li-1', {
               duration: 1000,
               origin: 'top',
@@ -141,25 +146,37 @@
             sr.reveal('#li-2', {
               duration: 1000,
               origin: 'top',
-              delay:400,
+              delay:300,
               distance: '50px'
             })
             sr.reveal('#li-3', {
               duration: 1000,
               origin: 'top',
-              delay:600,
+              delay:400,
               distance: '50px'
             })
             sr.reveal('#li-4', {
               duration: 1000,
               origin: 'top',
-              delay:800,
+              delay:500,
               distance: '50px'
             })
             sr.reveal('#li-5', {
               duration: 1000,
               origin: 'top',
-              delay:1000,
+              delay:600,
+              distance: '50px'
+            })
+            sr.reveal('#li-6', {
+              duration: 1000,
+              origin: 'top',
+              delay:800,
+              distance: '50px'
+            })
+            sr.reveal('#li-7', {
+              duration: 1000,
+              origin: 'top',
+              delay:900,
               distance: '50px'
             })
           });
@@ -172,16 +189,24 @@
               this.white = false;
             }
           }
+          let isVisible = $( ".collapse" ).is( ":visible" );
+          if (!isVisible && !$(window).scrollTop()) {
+            $('.navbar-default').addClass('black-text');
+          }
+          if (isVisible && !$(window).scrollTop()) {
+            $('.navbar-default').removeClass('black-text');
+          }
         })
 
-        // let isVisible = $( ".collapse" ).is( ":visible" );
+        // $('.dropdown-item').on('click', function() {
+        //   $( ".collapse" ).collapse('toggle');
+        // })
 
         $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
           event.preventDefault();
           event.stopPropagation();
 
           $(this).siblings().toggleClass("show");
-
 
           if (!$(this).next().hasClass('show')) {
             $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
@@ -236,6 +261,10 @@
         .fa-angle-down {
             color: $font-color-dark;
         }
+    }
+
+    .black-text {
+        -webkit-text-fill-color: $font-color-dark;
     }
 
     .active > a > svg {
@@ -316,11 +345,6 @@
         position: relative;
     }
 
-    .dropdown-submenu>.dropdown-menu {
-        top: -80%;
-        left: -90%;
-    }
-
     /** media queries **/
     @media screen and (min-width: 992px) { /* large screen */
 
@@ -341,5 +365,16 @@
 
     }
     @media (max-width: 576px) { /* mobile screen */
+        .dropdown-menu {
+            margin-top: 0;
+            padding: 0;
+        }
+        .navbar-nav li {
+            padding-right: 0;
+            font-size: 1rem;
+        }
+        .dropdown-menu li {
+            font-size: .8rem;
+        }
     }
 </style>

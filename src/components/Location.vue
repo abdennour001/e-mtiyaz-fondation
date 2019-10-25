@@ -63,7 +63,7 @@
     }
     @media (max-width: 576px) { /* mobile screen */
         .display-5 {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
         .lead {
             font-size: 1rem;

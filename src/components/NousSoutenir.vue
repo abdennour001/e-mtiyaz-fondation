@@ -56,7 +56,7 @@
         <div class="row text-center justify-content-center align-items-center jumbotron">
             <div class="col-12">
                 <h4 style="font-weight: 400;">En vous engageant aux côtés d’<strong>e-mtiyaz</strong>, vous <strong>contribuez</strong> à
-                    construire <strong>l’Algérie de demain</strong>. <i class="fas fa-rocket"></i></h4>
+                    construire <strong>l’Algérie de demain</strong>.</h4>
             </div>
             <div class="col-12 mt-4">
                 <a class="button Contactez-nous" href="#"
@@ -69,8 +69,8 @@
         <div class="row text-center justify-content-center align-items-center">
             <div class="col-12">
                 <div class="col-12 my-4">
-                    <h1 id="don" style="font-weight: normal; font-size: 3.5rem">Faites un don!</h1>
-                    <p id="underDon" class="lead my-5 mx-5">Vous souhaitez soutenir le <strong>développement de
+                    <h1 id="don" class="faiteDon" style="font-weight: normal">Faites un don!</h1>
+                    <p id="underDon" class="lead my-5">Vous souhaitez soutenir le <strong>développement de
                         l’éducation en Algérie ?</strong> Faites un <strong>don</strong>. Ce don nous permettra d’aider les <strong>jeunes étudiants</strong> à
                         <strong>poursuivre</strong> leurs <strong>études</strong>, à <strong>s’orienter</strong> de façon optimale et à
                         <strong>développer des compétences</strong> clés
@@ -221,11 +221,6 @@
             font-weight: 500;
         }
     }
-    /*.display-4 {
-        font-size: 1.7em;
-        color: $dark-blue-color;
-        text-transform: uppercase;
-    }*/
     ul {
         list-style-type: none;
         padding-left: 1rem;
@@ -320,6 +315,145 @@
     }
     .container-fluid {
         padding-bottom: 0;
+    }
+    .faiteDon {
+        font-size: 3.5rem
+    }
+    #underDon {
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+
+
+    /** media queries **/
+    @media screen and (min-width: 992px) and (max-width: 1134px){
+        .button {
+            width: 50%;
+        }
+        .button:hover {
+            width: 55%;
+        }
+    }
+    @media screen and (min-width: 992px) { /* large screen */
+
+    }
+    @media screen and (max-width: 992px) { /* large screen */
+        .display-5 {
+            font-size: 2rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+        .button {
+            width: 55%;
+        }
+        .button:hover {
+            width: 60%;
+        }
+    }
+    @media screen and (max-width: 772px) and (min-width: 500px) { /* tablet screen */
+        .button {
+            font-size: 1em;
+            width: 70%;
+        }
+        .button:hover {
+            width: 75%;
+        }
+    }
+    @media screen and (max-width: 654px) and (min-width: 332px) {
+        .button {
+            font-size: 1em;
+            width: 80%;
+        }
+        .button:hover {
+            width: 85%;
+        }
+    }
+    @media screen and (max-width: 768px) { /* medium screen */
+        .display-5 {
+            font-size: 1.8rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+
+        .content-top {
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+        }
+        .title-1-1 {
+            font-size: 1.8em;
+        }
+        .title-1-2 {
+            font-size: 2.2em;
+        }
+        .title-2-1 {
+            font-size: 1.8em;
+        }
+        .title-2-2 {
+            font-size: 2.2em;
+        }
+        ul li {
+            font-size: 1.2rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+        .faiteDon {
+            font-size: 2.9rem
+        }
+        .blue {
+            font-size: 2.2rem;
+        }
+    }
+    @media (max-width: 576px) { /* mobile screen */
+        .display-5 {
+            font-size: 1.5rem;
+        }
+        .lead {
+            font-size: 1rem;
+        }
+
+        .content-top {
+            padding-right: 1.2rem;
+            padding-left: 1.2rem;
+        }
+        .title-1-1 {
+            font-size: 1.5em;
+        }
+        .title-1-2 {
+            font-size: 1.9em;
+        }
+        .title-2-1 {
+            font-size: 1.5em;
+        }
+        .title-2-2 {
+            font-size: 1.9em;
+        }
+        ul li {
+            font-size: 1rem;
+        }
+        .button {
+            font-size: .92rem;
+            width: 100%;
+        }
+        h4 {
+            font-size: 1.2rem;
+        }
+        .faiteDon {
+            font-size: 2.2rem
+        }
+        #underDon {
+            margin-right: .2rem;
+            margin-left: .2rem;
+        }
+        .blue {
+            font-size: 1.7rem;
+        }
+        .why {
+            padding: 1rem;
+        }
     }
 
 </style>

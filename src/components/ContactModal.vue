@@ -124,12 +124,14 @@
     },
     methods: {
       contactCall() {
+        $('#exampleModal').modal('hide')
+
         this.firstSubmit = true;
         if (this.nom && this.email && this.tel && this.niveau && this.etablissement && this.msg) {
           let data = new FormData();
           data.append('nom', this.nom);
           data.append('email', this.email);
-          data.append('tel', this.telephone);
+          data.append('tel', this.tel);
           data.append('niveau', this.niveau);
           data.append('etablissement', this.etablissement);
           data.append('sujet', this.checked);
@@ -140,7 +142,6 @@
             .then(async response => {
               if (response.data.includes('Message has been sent')) {
                 $('#success').modal('show')
-                $('#exampleModal').modal('hide')
               } else {
                 alert('something goes wrong...')
               }
@@ -246,5 +247,12 @@
         color: $font-color-light;
         border-radius: 200px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 576px) { /* mobile screen */
+        .choice {
+            width: 30%;
+            padding: .4rem;
+        }
     }
 </style>

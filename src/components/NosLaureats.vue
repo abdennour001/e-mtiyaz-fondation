@@ -14,25 +14,25 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12" style="margin-bottom: 5rem">
                         <div class="row align-items-center">
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
                                 <p id="p-3" class="lead">D'un échantillon annuel de <strong>30</strong> à <strong>50</strong>
                                     participants issus d’un programme de sélection.</p>
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
                                 <div class="circle icon-1"></div>
                             </div>
-                            <div class="col-4"></div>
+                            <div class="col-lg-4 col-md-0"></div>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="row align-items-center">
-                            <div class="col-4"></div>
-                            <div class="col-4">
-                                <div class="circle-last icon-2"></div>
-                            </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 order-lg-1 order-md-1"></div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 order-lg-3 order-md-3">
                                 <p id="p-2" class="lead">D’horizons <strong>sociaux</strong> et <strong>géographiques</strong>
                                     représentatifs de <strong>la diversité de l’Algérie</strong>. </p>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 order-lg-2 order-md-2">
+                                <div class="circle-last icon-2"></div>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
         background-size: cover;
     }
     .icon-2 {
-        background: url("../assets/img/alg.jpg") no-repeat center;
+        background: url("../assets/icon/algeria.svg") no-repeat center;
         background-size: cover;
     }
     strong {
@@ -136,5 +136,108 @@
     .content {
         padding-left: 6rem;
         padding-right: 6rem;
+    }
+
+    /** media queries **/
+    @media screen and (min-width: 992px) and (max-width: 1134px){
+        .button {
+            width: 30%;
+        }
+        .button:hover {
+            width: 35%;
+        }
+    }
+    @media screen and (min-width: 992px) { /* large screen */
+
+    }
+    @media screen and (max-width: 992px) { /* large screen */
+        .display-5 {
+            font-size: 2rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+        h3 {
+            font-size: 1.7rem;
+        }
+        .button {
+            width: 30%;
+        }
+        .button:hover {
+            width: 35%;
+        }
+    }
+    @media screen and (max-width: 989px) {
+        .circle:after {
+            content: '';
+            border-left: 3px dashed transparent;
+        }
+    }
+    @media screen and (max-width: 772px) and (min-width: 500px) { /* tablet screen */
+        .button {
+            font-size: 1em;
+            font-weight: 300;
+            width: 35%;
+        }
+        .button:hover {
+            width: 40%;
+        }
+    }
+    @media screen and (max-width: 654px) and (min-width: 332px) {
+        .button {
+            font-size: 1em;
+            font-weight: 300;
+            width: 70%;
+        }
+        .button:hover {
+            width: 75%;
+        }
+    }
+    @media screen and (max-width: 768px) { /* medium screen */
+        .display-5 {
+            font-size: 1.8rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+        h3 {
+            font-size: 1.7rem;
+        }
+        .content {
+            padding-left: 2.2rem;
+            padding-right: 2.2rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+    }
+    @media (max-width: 576px) { /* mobile screen */
+        .display-5 {
+            font-size: 1.5rem;
+        }
+        .lead {
+            font-size: 1rem;
+            margin-bottom: 25px;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+        .content {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        h4 {
+            font-size: 1.2rem;
+        }
+    }
+    @media screen and (max-width: 332px) {
+        .button {
+            font-size: 1em;
+            font-weight: 300;
+            width: 90%;
+        }
+        .button:hover {
+            width: 95%;
+        }
     }
 </style>

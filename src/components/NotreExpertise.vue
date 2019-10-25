@@ -44,7 +44,7 @@
             <div class="col-12">
                 <div class="row text-center">
                     <div class="col-12 my-4">
-                        <h1 class="orange" style="font-weight: normal; font-size: 3rem">Pourquoi ?</h1>
+                        <h1 class="orange">Pourquoi ?</h1>
                     </div>
                     <div class="col-12">
                         <p class="lead" style="font-size: 1.5rem">
@@ -77,6 +77,8 @@
     }
     .orange{
         color: $dark-orange-color;
+        font-weight: normal;
+        font-size: 3rem
     }
     .icon-1 {
         background: url("../assets/icon/icon-3.png") no-repeat center;
@@ -89,5 +91,61 @@
     .icon-3 {
         background: url("../assets/icon/icon-6.png") no-repeat center;
         background-size: cover;
+    }
+
+    /** media queries **/
+    @media screen and (min-width: 992px) { /* large screen */
+
+    }
+    @media screen and (max-width: 992px) { /* large screen */
+        .display-5 {
+            font-size: 2rem;
+        }
+        h4 {
+            font-size: 1.8rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+        .plus {
+            margin-bottom: 10px;
+        }
+        .orange {
+            font-size: 2.8rem;
+        }
+    }
+    @media screen and (max-width: 768px) { /* medium screen */
+        .display-5 {
+            font-size: 1.8rem;
+        }
+        h4 {
+            font-size: 1.4rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+        .plus {
+            margin-bottom: 10px;
+        }
+        .orange {
+            font-size: 2.5rem;
+        }
+    }
+    @media (max-width: 576px) { /* mobile screen */
+        .display-5 {
+            font-size: 1.5rem;
+        }
+        h4 {
+            font-size: 1.3rem;
+        }
+        .lead {
+            font-size: 1rem;
+        }
+        .plus {
+            margin-bottom: 15px;
+        }
+        .orange {
+            font-size: 2rem;
+        }
     }
 </style>

@@ -19,16 +19,16 @@
         </div>
         <div class="row text-center squeeze-75 mb-4">
             <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
-                <img src="../assets/img/union-européenne.png" class="w-75 i-1" alt="">
+                <img src="../assets/img/union-européenne.png" class="img-custom i-1" alt="">
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
-                <img src="../assets/img/inc.png" class="w-75 i-2" alt="">
+                <img src="../assets/img/inc.png" class="img-custom i-2" alt="">
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
-                <img src="../assets/img/heo.png" class="w-75 i-3" alt="">
+                <img src="../assets/img/heo.png" class="img-custom i-3" alt="">
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
-                <img src="../assets/img/diamed.png" class="w-75 i-4" alt="">
+                <img src="../assets/img/diamed.png" class="img-custom i-4" alt="">
             </div>
         </div>
     </div>
@@ -90,6 +90,9 @@
     strong {
         font-weight: 500;
     }
+    .img-custom {
+        width: 75%;
+    }
     /** media queries **/
     @media screen and (min-width: 992px) { /* large screen */
 
@@ -101,6 +104,13 @@
         .lead {
             font-size: 1.1rem;
         }
+        .img-custom {
+            width: 55%;
+            margin-bottom: 20px;
+        }
+        .jumbotron {
+            padding: 1rem;
+        }
     }
     @media screen and (max-width: 768px) { /* medium screen */
         .display-5 {
@@ -109,6 +119,13 @@
         .lead {
             font-size: 1.1rem;
         }
+        .img-custom {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+        .jumbotron {
+            padding: .9rem;
+        }
     }
     @media (max-width: 576px) { /* mobile screen */
         .display-5 {
@@ -116,6 +133,13 @@
         }
         .lead {
             font-size: 1rem;
+        }
+        .img-custom {
+            width: 55%;
+            margin-bottom: 20px;
+        }
+        .jumbotron {
+            padding: .7rem;
         }
     }
 </style>

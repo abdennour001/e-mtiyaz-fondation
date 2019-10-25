@@ -193,4 +193,33 @@
         background: $light-blue-color-transparent;
     }
 
+    /** media queries **/
+    @media screen and (min-width: 992px) { /* large screen */
+
+    }
+    @media screen and (max-width: 992px) { /* large screen */
+        .display-5 {
+            font-size: 2rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+    }
+    @media screen and (max-width: 768px) { /* medium screen */
+        .display-5 {
+            font-size: 1.8rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+    }
+    @media (max-width: 576px) { /* mobile screen */
+        .display-5 {
+            font-size: 1.5rem;
+        }
+        .lead {
+            font-size: 1rem;
+        }
+    }
+
 </style>

@@ -1,7 +1,7 @@
 <template>
-    <div id="title" class="container-fluid ml-4">
+    <div id="title" class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 offset-3 col-sm-12">
+            <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
                 <div class="col-12 mt-5">
                     <img class="logo-img" src="../assets/logo/e-mtiyaz-logo-v3-fondation-white.png"/>
                 </div>
@@ -33,24 +33,6 @@
     #title {
         color: $font-color-light;
         margin-top: 140px;
-    }
-    h1 {
-        font-size: 3em;
-        font-weight: 600;
-        color: $font-color-light;
-    }
-    h1.e-mtiyaz {
-        font-weight: 300;
-    }
-    h3 {
-        font-weight: 500;
-        letter-spacing: 1px;
-        color: $font-color-light;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    }
-    .lead-2 {
-        font-size: 1.1rem;
-        font-weight: 300;
     }
     .button {
         display: inline-block;
@@ -84,69 +66,78 @@
     .margin-3 {
         margin-top: 40px;
     }
-    .read-more {
-        text-decoration: none;
-        color: $font-color-light;
-        font-size: 1.2em;
-        font-weight: 400;
-        transition: 0.5s ease;
-    }
-    .read-more:hover {
-        opacity: 0.8;
-    }
-    .read-more-icon {
-        margin-right: 10px;
-        transition: 0.5s ease;
-    }
-    .read-more:hover .read-more-icon {
-        transform: translateX(7px);
-    }
 
     /** media queries **/
+    @media screen and (min-width: 992px) and (max-width: 1134px){
+        .button {
+            width: 50%;
+        }
+        .button:hover {
+            width: 60%;
+        }
+    }
+
     @media screen and (min-width: 992px) { /* medium screen */
         .logo-img {
             width: 50%;
         }
     }
     @media screen and (max-width: 992px) { /* medium screen */
-        .lead-1 {
-            font-size: 1.1rem;
-            font-weight: 300;
-        }
-        .lead-2 {
-            font-size: 1.0rem;
-            font-weight: 300;
-        }
         .logo-img {
-            width: 50%;
+            width: 35%;
+        }
+        .button {
+            width: 30%;
+        }
+        .button:hover {
+            width: 35%;
         }
     }
-    @media screen and (max-width: 768px) { /* tablet screen */
-        .lead-1 {
-            font-size: 1.0rem;
+    @media screen and (max-width: 772px) and (min-width: 500px) { /* tablet screen */
+        .button {
+            font-size: 1em;
             font-weight: 300;
+            width: 35%;
         }
-        .lead-2 {
-            font-size: 1rem;
-            font-weight: 300;
+        .lead {
+            font-size: 1.3rem;
+        }
+        .button:hover {
+            width: 40%;
+        }
+    }
+
+    @media screen and (max-width: 654px) and (min-width: 332px) {
+        .logo-img {
+            width: 80%;
+        }
+        .lead {
+            font-size: 1.2rem;
         }
         .button {
             font-size: 1em;
             font-weight: 300;
+            width: 70%;
+        }
+        .button:hover {
+            width: 90%;
         }
     }
-    @media (max-width: 576px) { /* mobile screen */
-        .lead-1 {
-            font-size: 1rem;
-            font-weight: 300;
+
+    @media screen and (max-width: 332px) {
+        .logo-img {
+            width: 85%;
         }
-        .lead-2 {
-            font-size: 1rem;
-            font-weight: 300;
+        .lead {
+            font-size: 1.1rem;
         }
         .button {
             font-size: 1em;
             font-weight: 300;
+            width: 90%;
+        }
+        .button:hover {
+            width: 95%;
         }
     }
 
