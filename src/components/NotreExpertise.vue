@@ -15,7 +15,7 @@
                     <div class="col-lg-3 col-md-12 col-12-sm">
                         <div class="d-flex flex-column">
                             <div class="circle mb-3 icon-1"></div>
-                            <p id="p-2" class="lead">Mettre notre expertise de coaching de profils étudiants au service de leur insertion professionnelle.</p>
+                            <p id="p-2" class="lead">Mettre notre <strong>expertise</strong> de coaching de profils étudiants au service de leur insertion professionnelle.</p>
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-12 col-sm-12 align-self-center plus">
@@ -24,7 +24,7 @@
                     <div class="col-lg-3 col-md-12 col-12-sm">
                         <div class="d-flex flex-column">
                             <div class="circle mb-3 icon-2"></div>
-                            <p id="p-3" class="lead">Proposer une aide personnalisée à chacun des lauréats de nos programmes.</p>
+                            <p id="p-3" class="lead">Proposer une aide <strong>personnalisée</strong> à chacun des lauréats de nos programmes.</p>
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-12 col-sm-12 align-self-center plus">
@@ -33,7 +33,7 @@
                     <div class="col-lg-3 col-md-12 col-12-sm">
                         <div class="d-flex flex-column">
                             <div class="circle mb-3 icon-3"></div>
-                            <p id="p-4" class="lead">Mettre le réseau e-mtiyaz à disposition des primo-demandeurs d’emploi.</p>
+                            <p id="p-4" class="lead">Mettre le <strong>réseau</strong> e-mtiyaz à disposition des primo-demandeurs d’emploi.</p>
                         </div>
                     </div>
                 </div>
@@ -67,6 +67,9 @@
 <style lang="scss" scoped>
 
     @import '../variables.scss';
+    strong {
+        font-weight: 500;
+    }
     .circle {
         margin: 0 auto;
         width: 100px;

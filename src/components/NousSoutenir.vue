@@ -85,24 +85,24 @@
             <div class="col-12 text-left">
                 <div id="flex-1" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
-                    <p class="lead m-0">Prendre part à un projet éducatif de dimension nationale,</p>
+                    <p class="lead m-0">Prendre part à un projet éducatif de dimension nationale.</p>
                 </div>
                 <div id="flex-2" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
-                    <p class="lead m-0">Participer à la formation de la ressource humaine de demain et à son recrutement,</p>
+                    <p class="lead m-0">Participer à la formation de la ressource humaine de demain et à son recrutement.</p>
                 </div>
                 <div id="flex-3" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
-                    <p class="lead m-0">Intégrer un réseau d’entreprises qui nous soutiennent et participer à notre meeting annuel,</p>
+                    <p class="lead m-0">Intégrer un réseau d’entreprises qui nous soutiennent et participer à notre meeting annuel.</p>
                 </div>
                 <div id="flex-4" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
-                    <p class="lead m-0">Renforcer l’impact social de votre entreprise sur la société,</p>
+                    <p class="lead m-0">Renforcer l’impact social de votre entreprise sur la société.</p>
                 </div>
                 <div id="flex-5" class="d-flex justify-content-start align-items-center mb-4">
                     <i class="fas fa-arrow-circle-right mr-4 lead"></i>
                     <p class="lead m-0">Permettre à vos collaborateurs de développer des compétences d’écoute et de management
-                        intergénérationnel en les incitant à participer à nos ateliers,</p>
+                        intergénérationnel en les incitant à participer à nos ateliers.</p>
                 </div>
             </div>
         </div>

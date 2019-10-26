@@ -41,7 +41,7 @@
         </div>
         <div class="row text-center justify-content-center align-items-center jumbotron">
             <div class="col-12">
-                <h4 style="font-weight: 400;">Ils sont sélectionnés au travers de critères de sélection <strong>démocratiques</strong>
+                <h4 style="font-weight: 400;">Ils sont sélectionnés au travers de critères de sélection <strong>objectifs</strong>
                     et <strong>ouverts à toutes et à tous</strong>.</h4>
             </div>
             <div class="col-12 mt-4">
@@ -93,7 +93,7 @@
         background-size: cover;
     }
     .icon-2 {
-        background: url("../assets/icon/algeria.svg") no-repeat center;
+        background: url("../assets/icon/algeria(1).svg") no-repeat center;
         background-size: cover;
     }
     strong {
