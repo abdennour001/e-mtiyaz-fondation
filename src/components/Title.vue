@@ -6,7 +6,7 @@
                     <img class="logo-img" src="../assets/logo/e-mtiyaz-logo-v3-fondation-white.png"/>
                 </div>
                 <div class="col-12 margin-3">
-                    <p class="lead">e-mtiyaz est un centre éducatif qui œuvre depuis 2013 à faire de l’Algérie une terre d’excellence académique</p>
+                    <p class="lead">Depuis 2013, e-mtiyaz œuvre à faire de l’Algérie une terre d’excellence académique</p>
                 </div>
                 <div class="col-12 margin-2">
                     <a class="button Contactez-nous"
@@ -79,7 +79,7 @@
 
     @media screen and (min-width: 992px) { /* medium screen */
         .logo-img {
-            width: 50%;
+            width: 75%;
         }
     }
     @media screen and (max-width: 992px) { /* medium screen */

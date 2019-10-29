@@ -20,7 +20,7 @@
                             <li class="l-2">Leur faire<strong> découvrir</strong> le monde du travail à travers des <strong>événements d’immersion</strong></li>
                             <li class="l-3">Leur permettre d’accéder à des <strong>opportunités de financement</strong>,
                                 de <strong>stages</strong> ou <strong>d’emploi</strong>
-                                dans le cadre de son<strong> projet académique</strong></li>
+                                dans le cadre de leur<strong> projet académique</strong></li>
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 text-lg-center text-md-center text-md-center">
@@ -61,7 +61,7 @@
             <div class="col-12 mt-4">
                 <a class="button Contactez-nous" href="#"
                    data-toggle="modal" data-target="#exampleModal" data-whatever="Rejoignez la foundation e-mtiyaz">
-                    Rejoignez la foundation e-mtiyaz
+                    Rejoignez la fondation e-mtiyaz
                     <i class="fas fa-arrow-alt-circle-up align-middle ml-1" style="font-size: 1.7rem"></i>
                 </a>
             </div>
@@ -70,7 +70,7 @@
             <div class="col-12">
                 <div class="col-12 my-4">
                     <h1 id="don" class="faiteDon" style="font-weight: normal">Faites un don!</h1>
-                    <p id="underDon" class="lead my-5">Vous souhaitez soutenir le <strong>développement de
+                    <p id="underDon" class="lead my-5">Vous êtes une <strong>entreprise</strong> ou un <strong>particulier</strong> et vous souhaitez soutenir le <strong>développement de
                         l’éducation en Algérie ?</strong> Faites un <strong>don</strong>. Ce don nous permettra d’aider les <strong>jeunes étudiants</strong> à
                         <strong>poursuivre</strong> leurs <strong>études</strong>, à <strong>s’orienter</strong> de façon optimale et à
                         <strong>développer des compétences</strong> clés

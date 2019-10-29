@@ -29,13 +29,13 @@
                     <li id="li-4" class="nav-item">
                         <a class="nav-link scrollTo" href="#" data-scroll="#section_laureats">Nos Lauréats</a>
                     </li>
+<!--                    <li id="li-5" class="nav-item">-->
+<!--                        <a class="nav-link scrollTo" href="#" data-scroll="#section_partenaires">Nos Partenaires</a>-->
+<!--                    </li>-->
                     <li id="li-5" class="nav-item">
-                        <a class="nav-link scrollTo" href="#" data-scroll="#section_partenaires">Nos Partenaires</a>
-                    </li>
-                    <li id="li-6" class="nav-item">
                         <a class="nav-link scrollTo" href="#" data-scroll="#section_soutenir">Nous Soutenir</a>
                     </li>
-                    <li id="li-7" class="nav-item">
+                    <li id="li-6" class="nav-item">
                         <a class="nav-link scrollTo" href="#" data-scroll="#contact">Contact</a>
                     </li>
                 </ul>
@@ -97,12 +97,6 @@
           duration: 1000,
           origin: 'top',
           delay:800,
-          distance: '50px'
-        })
-        sr.reveal('#li-7', {
-          duration: 1000,
-          origin: 'top',
-          delay:900,
           distance: '50px'
         })
       });

@@ -13,8 +13,8 @@
         <Vision id="section_vision"></Vision>
         <NotreExpertise id="section_expertise"></NotreExpertise>
         <NosLaureats id="section_laureats"></NosLaureats>
-        <NosPartenaires id="section_partenaires"></NosPartenaires>
-        <Temoignages></Temoignages>
+<!--        <NosPartenaires id="section_partenaires"></NosPartenaires>-->
+<!--        <Temoignages></Temoignages>-->
         <NousSoutenir id="section_soutenir"></NousSoutenir>
         <Don></Don>
         <Location id="contact"></Location>
