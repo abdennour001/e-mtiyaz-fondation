@@ -14,13 +14,12 @@
                         <h1 class="top-t title-1-1 display-4 text-lg-left text-md-center text-md-center">Coach e-mtiyaz</h1>
                         <h1 class="bottom-t title-1-2 text-lg-left text-md-center text-md-center display-4"><strong>Devenir coach e-mtiyaz c’est</strong></h1>
                         <ul class="text-left ul-orange">
-                            <li class="l-1">Aider les jeunes <strong>étudiants</strong> à définir leur projet<strong>
-                                professionnel</strong> et les <strong>motiver</strong> à
+                            <li class="l-1"><strong>Aider</strong> les jeunes étudiants à définir leur projet professionnel et les <strong>motiver</strong> à
                                 <strong>s’investir</strong> dans la concrétisation de leurs ambitions</li>
-                            <li class="l-2">Leur faire<strong> découvrir</strong> le monde du travail à travers des <strong>événements d’immersion</strong></li>
+                            <li class="l-2">Leur faire<strong> découvrir le monde du travail</strong> à travers des <strong>événements d’immersion</strong></li>
                             <li class="l-3">Leur permettre d’accéder à des <strong>opportunités de financement</strong>,
                                 de <strong>stages</strong> ou <strong>d’emploi</strong>
-                                dans le cadre de leur<strong> projet académique</strong></li>
+                                dans le cadre de leur projet académique</li>
                         </ul>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 text-lg-center text-md-center text-md-center">
@@ -39,9 +38,9 @@
                                     <li class="l-1"><strong>Répondre </strong>aux questions de jeunes élèves/étudiants en vous
                                         <strong>inspirant de votre parcours</strong>
                                         et de <strong>vos expériences d’études</strong></li>
-                                    <li class="l-2">Témoigner de votre<strong> expérience</strong>
+                                    <li class="l-2"><strong>Témoigner</strong> de votre<strong> expérience</strong>
                                         lors <strong>d’évènements d’orientation et de </strong><strong>coaching</strong></li>
-                                    <li class="l-3"><strong>Parrainer</strong> un étudiant candidat à un <strong>parcours </strong>d’études similaire</li>
+                                    <li class="l-3"><strong>Parrainer</strong> un étudiant candidat à un <strong>parcours d’études similaire</strong></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12 text-lg-center text-md-center text-md-center">
@@ -74,7 +73,8 @@
                         l’éducation en Algérie ?</strong> Faites un <strong>don</strong>. Ce don nous permettra d’aider les <strong>jeunes étudiants</strong> à
                         <strong>poursuivre</strong> leurs <strong>études</strong>, à <strong>s’orienter</strong> de façon optimale et à
                         <strong>développer des compétences</strong> clés
-                        pour leur <strong>employabilité</strong></p>
+                        pour leur <strong>employabilité</strong>
+                    </p>
                 </div>
             </div>
             <div class="col-12 my-4">

@@ -14,7 +14,7 @@
                     Parce que la <strong>réussite scolaire et universitaire</strong> de même que <strong>l’insertion professionnelle</strong> qui
                     en découle ne doit pas dépendre de l’origine économique, sociale et géographique des élèves, la
                     <strong>fondation e-mtiyaz</strong> développe des programmes d’actions en <strong>Algérie</strong> en s’appuyant sur
-                    <strong>trois piliers</strong>.
+                    <strong>trois piliers</strong>:
                 </p>
             </div>
             <div class="col-12 mt-5">
