@@ -67,45 +67,43 @@
         sr.reveal('#li-1', {
           duration: 1000,
           origin: 'top',
+          delay: 100,
           distance: '50px'
         })
         sr.reveal('#li-2', {
           duration: 1000,
           origin: 'top',
-          delay:300,
+          delay:200,
           distance: '50px'
         })
         sr.reveal('#li-3', {
           duration: 1000,
           origin: 'top',
-          delay:400,
+          delay:300,
           distance: '50px'
         })
         sr.reveal('#li-4', {
           duration: 1000,
           origin: 'top',
-          delay:500,
+          delay:400,
           distance: '50px'
         })
         sr.reveal('#li-5', {
           duration: 1000,
           origin: 'top',
-          delay:600,
+          delay:500,
           distance: '50px'
         })
         sr.reveal('#li-6', {
           duration: 1000,
           origin: 'top',
-          delay:800,
+          delay:600,
           distance: '50px'
         })
       });
-      // to use : await sleep(ms)
-      function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-      }
 
       $(document).ready(function() {
+
         if ($(window).scrollTop()) {
           $('.navbar-default').addClass('white-nav');
           $('#logo-image').attr('src', require('../assets/logo/e-mtiyaz-logo-v3-fondation.png'));
@@ -125,64 +123,67 @@
         });
 
         $('.navbar-toggler').on('click', function() {
-          $(document).ready(function() {
-            window.sr = ScrollReveal({ reset: false });
-            sr.reveal('#logo-image', {
-              duration: 1000,
-              origin: 'left',
-              distance: '300px'
-            })
-            sr.reveal('#li-1', {
-              duration: 1000,
-              origin: 'top',
-              distance: '50px'
-            })
-            sr.reveal('#li-2', {
-              duration: 1000,
-              origin: 'top',
-              delay:300,
-              distance: '50px'
-            })
-            sr.reveal('#li-3', {
-              duration: 1000,
-              origin: 'top',
-              delay:400,
-              distance: '50px'
-            })
-            sr.reveal('#li-4', {
-              duration: 1000,
-              origin: 'top',
-              delay:500,
-              distance: '50px'
-            })
-            sr.reveal('#li-5', {
-              duration: 1000,
-              origin: 'top',
-              delay:600,
-              distance: '50px'
-            })
-            sr.reveal('#li-6', {
-              duration: 1000,
-              origin: 'top',
-              delay:800,
-              distance: '50px'
-            })
-            sr.reveal('#li-7', {
-              duration: 1000,
-              origin: 'top',
-              delay:900,
-              distance: '50px'
-            })
-          });
+          window.sr = ScrollReveal({ reset: false });
+          sr.reveal('#logo-image', {
+            duration: 1000,
+            origin: 'left',
+            distance: '300px'
+          })
+          sr.reveal('#li-1', {
+            duration: 1000,
+            origin: 'top',
+            delay: 100,
+            distance: '50px'
+          })
+          sr.reveal('#li-2', {
+            duration: 1000,
+            origin: 'top',
+            delay:200,
+            distance: '50px'
+          })
+          sr.reveal('#li-3', {
+            duration: 1000,
+            origin: 'top',
+            delay:300,
+            distance: '50px'
+          })
+          sr.reveal('#li-4', {
+            duration: 1000,
+            origin: 'top',
+            delay:400,
+            distance: '50px'
+          })
+          sr.reveal('#li-5', {
+            duration: 1000,
+            origin: 'top',
+            delay:500,
+            distance: '50px'
+          })
+          sr.reveal('#li-6', {
+            duration: 1000,
+            origin: 'top',
+            delay:600,
+            distance: '50px'
+          })
+          sr.reveal('#li-7', {
+            duration: 1000,
+            origin: 'top',
+            delay:700,
+            distance: '50px'
+          })
+
+
           if(!$('.navbar-default').hasClass('white-nav')) {
             if (!this.white) {
               $('#logo-image').attr('src', require('../assets/logo/e-mtiyaz-logo-v3-fondation.png'));
               this.white = true
             } else {
-              $('#logo-image').attr('src', require('../assets/logo/e-mtiyaz-logo-v3-fondation-white-orange-fondation.png'));
+              $('#logo-image').attr('src', require('../assets/logo/e-mtiyaz-logo-v3-fondation-white.png'));
               this.white = false;
             }
           }
+
+
           let isVisible = $( ".collapse" ).is( ":visible" );
           if (!isVisible && !$(window).scrollTop()) {
             $('.navbar-default').addClass('black-text');
@@ -191,10 +192,6 @@
             $('.navbar-default').removeClass('black-text');
           }
         })
-
-        // $('.dropdown-item').on('click', function() {
-        //   $( ".collapse" ).collapse('toggle');
-        // })
 
         $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
           event.preventDefault();
@@ -226,7 +223,6 @@
 
     .navbar-default{
         transition:500ms ease;
-        background:transparent;
         -webkit-text-fill-color: $font-color-light;
         .dropdown-item {
             -webkit-text-fill-color: $font-color-dark;

@@ -8,21 +8,23 @@
                 <Title></Title>
             </div>
         </div>
-        <!-- e-mtiyaz en quelques mots -->
-        <JumbotronAbout id="section_quelque_mot"></JumbotronAbout>
-        <Vision id="section_vision"></Vision>
-        <NotreExpertise id="section_expertise"></NotreExpertise>
-        <NosLaureats id="section_laureats"></NosLaureats>
-<!--        <NosPartenaires id="section_partenaires"></NosPartenaires>-->
-<!--        <Temoignages></Temoignages>-->
-        <NousSoutenir id="section_soutenir"></NousSoutenir>
-        <Don></Don>
-        <Location id="contact"></Location>
-        <Footer></Footer>
+        <div class="hidden">
+            <!-- e-mtiyaz en quelques mots -->
+            <JumbotronAbout id="section_quelque_mot"></JumbotronAbout>
+            <Vision id="section_vision"></Vision>
+            <NotreExpertise id="section_expertise"></NotreExpertise>
+            <NosLaureats id="section_laureats"></NosLaureats>
+            <!--        <NosPartenaires id="section_partenaires"></NosPartenaires>-->
+            <!--        <Temoignages></Temoignages>-->
+            <NousSoutenir id="section_soutenir"></NousSoutenir>
+            <Don></Don>
+            <Location id="contact"></Location>
+            <Footer></Footer>
 
-        <ContactModal></ContactModal>
-        <!-- Go up button-->
-        <a id="topBtn" href=""><i class="fas fa-arrow-up"></i></a>
+            <ContactModal></ContactModal>
+            <!-- Go up button-->
+            <a id="topBtn" href=""><i class="fas fa-arrow-up"></i></a>
+        </div>
     </div>
 </template>
 
@@ -112,6 +114,10 @@
         background-size: cover;
         height: 140vh;
         overflow: hidden;
+    }
+
+    .hidden {
+        overflow-x: hidden;
     }
 
     #topBtn {

@@ -17,9 +17,9 @@
     text-align: center;
     color: $font-color-dark;
   }
-  body {
-    overflow-x: hidden;
-  }
+
+  /*body, html { overflow-x: hidden; }*/
+
   hr.light {
     background-color: $font-color-light;
     opacity: 0.3;
@@ -52,9 +52,6 @@
   }
   .squeeze-70 {
     width: 70%;
-  }
-  .button:active {
-    transform: scale(0.8);
   }
 
   /** media queries **/

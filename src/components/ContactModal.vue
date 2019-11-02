@@ -117,7 +117,7 @@
   import Loading from 'vue-loading-overlay';
   // Import stylesheet
   import 'vue-loading-overlay/dist/vue-loading.css';
-  // Init plugin
+  // Init pluginindex
   Vue.use(Loading);
 
 
@@ -166,7 +166,7 @@
             data.append('cv', this.cv);
           }
 
-          this.axios.post("http://127.0.0.1/e-mtiyaz-foundation/contact.php", data,
+          this.axios.post("contact.php", data,
             {
               headers: {
                 'Content-Type': 'multipart/form-data'

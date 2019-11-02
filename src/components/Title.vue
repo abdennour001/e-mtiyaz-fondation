@@ -79,7 +79,7 @@
 
     @media screen and (min-width: 992px) { /* medium screen */
         .logo-img {
-            width: 75%;
+            width: 70%;
         }
     }
     @media screen and (max-width: 992px) { /* medium screen */
